@@ -1,6 +1,6 @@
 
 body {
-    font-family: Roboto;
+    font-family: 'Roboto';
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -27,13 +27,12 @@ body {
 }
 
 .hero-one {
-    border: 2px solid;
+    /* border: 2px solid; */
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
     display: flex;
     justify-content: flex-end;
-    align-items: center; 
 }
 
 .hero-second {
@@ -78,18 +77,19 @@ button {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .hero {
     border: 3px solid green;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .placeholder {
     background: #808080;
-    width: 300px;
+    width: 500px;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -117,10 +117,10 @@ button {
    background-color: #E5E7EB; 
    font-size: 36px;
    color: #1F2937;
-   font-style: italic light;
-
+   font-style: italic;
    display: flex;
    justify-content: center;
+   align-items: center;
 }
 
 .avatar {
@@ -149,7 +149,6 @@ button {
 .container-img {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .text {
