@@ -7,7 +7,7 @@ body {
 }
 
 .container-info {
-   border: 2px solid; 
+   border: 2px solid green; 
    display: flex;
    justify-content: center;
 }
@@ -28,7 +28,7 @@ body {
 } */
 
 .container-header {
-    /* display: flex; */
+    display: flex;
     justify-content: center;
 }
 
@@ -51,8 +51,6 @@ body {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-    display: flex;
-    align-self: flex-end;
 }
 
 .hero2 {
@@ -98,8 +96,6 @@ button {
     color: #F9FAF8;
 }
 
-
-
 .placeholder {
     background: #808080;
     width: 500px;
@@ -109,4 +105,25 @@ button {
     align-items: center;
 }
 
+.title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #067dec;
+    border-radius: 5px;
+}
+
+/* .info {
+    max-width: 200px;
+} */
+
+.text {
+    border: 2px solid;
+}
 
