@@ -7,9 +7,13 @@ body {
 }
 
 .container-info {
-   border: 2px solid green; 
+   height: 200px;
+   /* border: 2px solid green;  */
    display: flex;
    justify-content: center;
+   align-items: center;
+   gap: 32px;
+   margin-bottom: 40px;
 }
 
 .container-hero {
@@ -20,6 +24,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 12px;
+    margin-bottom: 24px;
 
 }
 
@@ -110,20 +115,55 @@ button {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 32px;
 }
 
 .card {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 2px solid #067dec;
-    border-radius: 5px;
+    border-radius: 8px;
+    display: flex;
 }
 
-/* .info {
-    max-width: 200px;
-} */
+.info {
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid #008000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .text {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-quote {
+    height: 300px;
+    border: 2px solid blue;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    /* width: 700px; */
     border: 2px solid;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.autor {
+    font-weight: 900;
 }
 
