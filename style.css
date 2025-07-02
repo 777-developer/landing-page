@@ -18,12 +18,13 @@ body {
 
 .container-hero {
     /* border: 3px solid green; */
-    height: 500px;
+    height: 300px;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 12px;
+    flex: 1;
     margin-bottom: 24px;
 
 }
@@ -144,7 +145,7 @@ button {
 
 .container-quote {
     height: 300px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -153,17 +154,56 @@ button {
 }
 
 .quote-text {
-    /* width: 700px; */
-    border: 2px solid;
+    /* width: 900px; */
+    /* border: 2px solid; */
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .autor {
     font-weight: 900;
+    font-size: 16px;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 300px;
 }
+
+.call {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-text {
+    border: 2px solid green;
+    background-color: #3882F6;
+    width: 900px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.sign-up {
+    border: 1px solid #F9FAF8;
+    display: flex;
+}
+
+.call-text, .text2 {
+    color: #F9FAF8;
+}
+
+.call-text {
+    /* border: 2px solid; */
+    font-size: 18px;
+    font-weight: 900;
+}
+
 
