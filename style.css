@@ -8,7 +8,6 @@ body {
 
 .container-info {
    height: 200px;
-   /* border: 2px solid green;  */
    display: flex;
    justify-content: center;
    align-items: center;
@@ -17,7 +16,6 @@ body {
 }
 
 .container-hero {
-    /* border: 3px solid green; */
     height: 300px;
     background-color: #1F2937;
     display: flex;
@@ -26,12 +24,7 @@ body {
     gap: 12px;
     flex: 1;
     margin-bottom: 24px;
-
 }
-
-/* .container-herotxt {
-    border: 2px solid;
-} */
 
 .container-header {
     display: flex;
@@ -80,17 +73,25 @@ a {
     text-decoration: none;
 }
 
-button {
-    border: 2px solid;
+.sign-up1 {
+    border: none;
+}
+
+.sign-up2 {
+    border: 1px solid #F9FAF8;
+}
+
+.sign-up1,
+.sign-up2 {
     background-color: #3882F6;
     color: #F9FAF8;
-    border: none;
     border-radius: 5px;
     padding: 8px 24px;
     margin-top: 8px;
 }
 
 .footer {
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,7 +131,6 @@ button {
 .info {
     width: 200px;
     height: 200px;
-    /* border: 2px solid #008000; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,12 +140,10 @@ button {
 .text {
     display: flex;
     justify-content: center;
-
 }
 
 .container-quote {
     height: 300px;
-    /* border: 2px solid blue; */
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -154,15 +152,13 @@ button {
 }
 
 .quote-text {
-    /* width: 900px; */
-    /* border: 2px solid; */
     color: #1F2937;
     font-size: 36px;
+    font-weight: 300;
     font-style: italic;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .autor {
@@ -173,37 +169,37 @@ button {
     margin-right: 300px;
 }
 
-.call {
+.container-call {
+    height: 200px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-
 
 .container-text {
-    border: 2px solid green;
     background-color: #3882F6;
-    width: 900px;
+    width: 1000px;
     height: 100px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
-
-.sign-up {
-    border: 1px solid #F9FAF8;
-    display: flex;
-}
-
-.call-text, .text2 {
+.call-text, 
+.text2 {
     color: #F9FAF8;
 }
 
 .call-text {
-    /* border: 2px solid; */
     font-size: 18px;
     font-weight: 900;
 }
+
+div .text2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
 
 
